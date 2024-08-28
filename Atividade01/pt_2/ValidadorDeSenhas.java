@@ -13,7 +13,7 @@ public class ValidadorDeSenhas {
         while (!senhaValida(senha)) {
             senha++;
             try {
-                // Pausa de 1 segundo entre cada ajuste
+                // Pausa de 0.3 segundo entre cada ajuste
                 Thread.sleep(300);
             } catch (InterruptedException e) {
                 // Captura e trata a exceção se o sleep for interrompido
